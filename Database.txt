@@ -1,0 +1,67 @@
+// my food database
+
+create table myfood(
+firstname varchar(50),
+lastname varchar(50),
+dob varchar(50),
+Gender varchar(50),
+number varchar(50),
+email varchar(50),
+userid varchar(50),
+password1 varchar(50),
+password2 varchar(50), 
+securityQuestion varchar(50),
+answer varchar(50),
+user  varchar(50));
+
+
+//admin database
+
+create table admin(
+userid varchar(20),
+password varchar(20));
+
+
+//feedback table
+
+create table feedback(
+ Index int ,
+name varchar(45),
+email varchar(45),
+age varchar(45),
+role varchar(45),
+recommend varchar(45),
+comment varchar(45));
+
+//donation database
+
+create table donation(
+index int,
+firstname varchar(45),
+lastname varchar(45),
+email varchar(45),
+number varchar(45),
+address varchar(45),
+subject varchar(45));
+
+//solution database
+
+create table solution(
+Index int,
+ticketid varchar(45),
+subject varchar(50));
+
+//database logi
+create table logi(
+name varchar(50),
+vnumber varchar(45),
+contact varchar(45),
+comment(100));
+
+
+//database blog
+
+create table blog (
+Index int,
+subject varchar(100),
+description varchar(100));
